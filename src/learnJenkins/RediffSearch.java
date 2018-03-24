@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+import org.openqa.selenium.os.WindowsUtils;
 
 public class RediffSearch {
 
@@ -22,7 +23,7 @@ public class RediffSearch {
 		Thread.sleep(5000);
 		//dr.findElement(By.xpath(".//*[@id='login1']")).sendKeys("");
 		//dr.findElement(By.xpath(".//*[@id='password']")).sendKeys("");
-	        Console.log("======= Github - Jenkins========");
+		Console.log("======= Github - Jenkins========");
 		dr.quit();
 		
 		
