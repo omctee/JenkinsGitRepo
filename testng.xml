@@ -3,7 +3,7 @@
 <suite name="AntJenkinsTestSuite">
 	<test verbose="2" name="myTests">
 		<classes>
-			<class name="learnJenkins.RediffSearch.java" />
+			<class name="learnJenkins.RediffSearch" />
 		</classes>
 	</test>
 </suite>
