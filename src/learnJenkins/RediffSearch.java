@@ -22,6 +22,7 @@ public class RediffSearch {
 		Thread.sleep(5000);
 		//dr.findElement(By.xpath(".//*[@id='login1']")).sendKeys("");
 		//dr.findElement(By.xpath(".//*[@id='password']")).sendKeys("");
+	     Console.log("======= Github - Jenkins========")
 		dr.quit();
 		
 		
