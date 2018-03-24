@@ -11,10 +11,11 @@ public class RediffSearch {
 
 	@Test
 	public void loginTest() throws InterruptedException {
+		WindowsUtils.killByName("geckodriver.exe");
+		WindowsUtils.killByName("conhost.exe");	
 		System.setProperty("webdriver.gecko.driver", "D:\\selenium-drivers\\geckodriver.exe");
 		WebDriver dr = new FirefoxDriver();
 		dr.get("http://www.rediff.com/");
-
 		dr.manage().window().maximize();
 		dr.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		dr.findElement(By.xpath(".//*[@id='signin_info']/a[1]")).click();
